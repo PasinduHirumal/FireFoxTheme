@@ -1,7 +1,5 @@
 # Firefox Custom Theme
 
-[![Video Thumbnail](thumbnail-image-url)](https://drive.google.com/file/d/1k1HGJSeVjKVJEDi3rk2q-j9PkfJDNPVH/view?usp=sharing)<br>
-
 ## Installation Instructions
 
 ### Method 1: userChrome.css (Recommended)
