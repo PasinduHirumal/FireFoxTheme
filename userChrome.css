@@ -1,0 +1,153 @@
+/* Root variables for easy color customization */
+:root {
+    --primary-color: #2f95da8c;
+    --secondary-color: #2ecc71;
+    --background-color: #f4f4f4;
+    --text-color: #333;
+    --accent-color: #9b59b6;
+}
+
+/* Toolbar and Navigation Styling */
+#nav-bar {
+    background: linear-gradient(to bottom, var(--primary-color), #2980b9) !important;
+    border-bottom: 2px solid var(--secondary-color) !important;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1) !important;
+}
+
+/* Tab Styling */
+.tabbrowser-tab {
+    background-color: rgba(255,255,255,0.1) !important;
+    border-radius: 8px !important;
+    margin: 4px 2px !important;
+    transition: all 0.3s ease !important;
+}
+
+.tabbrowser-tab:hover {
+    background-color: rgba(255,255,255,0.2) !important;
+    transform: scale(1.02) !important;
+}
+
+/* Tab Close Button Styling */
+.tab-close-button {
+    color: #ffffff;
+    background-color: transparent !important;
+    border-radius: 50% !important;
+    transition: all 0.2s ease-in-out !important;
+    cursor: pointer;
+}
+
+.tab-close-button:hover {
+    background-color: #ff0000af !important;
+    color: white !important;
+    transform: scale(1.2) !important;
+    opacity: 1 !important;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2) !important;
+}
+
+.tabbrowser-tab[selected="true"] {
+    background-color: var(--primary-color) !important;
+    color: rgb(255, 255, 255) !important;
+}
+
+#urlbar:focus-within {
+    border-color: var(--accent-color) !important;
+    box-shadow: 0 0 10px rgba(155,89,182,0.3) !important;
+}
+
+/* Bookmarks Bar */
+#PersonalToolbar {
+    background-color: var(--background-color) !important;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.164) !important;
+}
+
+#PersonalToolbar toolbarbutton {
+    margin: 0 5px !important;
+    cursor: pointer !important;
+    transition: all 0.2s ease-in-out !important;
+}
+
+/* Sidebar Styling */
+#sidebar-box {
+    background-color: white !important;
+    border-right: 1px solid rgba(0,0,0,0.1) !important;
+}
+
+/* Context Menus */
+menupopup {
+    background-color: white !important;
+    border-radius: 8px !important;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2) !important;
+}
+
+menupopup menuitem:hover {
+    background-color: var(--primary-color) !important;
+    color: white !important;
+}
+
+/* Buttons */
+.toolbarbutton-1 {
+    transition: all 0.3s ease !important;
+    border-radius: 50% !important;
+}
+
+/* Developer Tools */
+#devtools-toolbox {
+    background-color: #f8f9fa !important;
+    color: var(--text-color) !important;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 1024px) {
+    #nav-bar {
+        padding: 4px !important;
+    }
+    
+    .tabbrowser-tab {
+        max-width: 150px !important;
+    }
+}
+
+/* Dark Mode Support */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background-color: #1e1e1e;
+        --text-color: #e0e0e0;
+    }
+    
+    #nav-bar {
+        background: linear-gradient(to bottom, #2c3e50, #34495e) !important;
+    }
+}
+
+/* Minimize, Resize, and Close Buttons Styling */
+.titlebar-buttonbox-container {
+    align-items: center !important;
+    margin-right: 8px !important;
+}
+
+/* Base Styling for Buttons */
+.titlebar-button {
+    width: 36px !important;
+    height: 36px !important;
+    background-color: rgba(255, 255, 255, 0.1) !important;
+    border-radius: 4px !important;
+    margin: 0 4px !important;
+    padding: 0 !important;
+    transition: all 0.3s ease !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+/* Hover Effects */
+.titlebar-button:hover {
+    transform: scale(1.1) !important;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2) !important;
+}
+
+/* Specific Close Button Hover States */
+.titlebar-close:hover {
+    background-color: #ff0000af !important;
+    color: white !important;
+}
