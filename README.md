@@ -1,6 +1,6 @@
 # Firefox Custom Theme
 
-<img src="https://drive.google.com/file/d/1k1HGJSeVjKVJEDi3rk2q-j9PkfJDNPVH/view?usp=drive_link"><br>
+[![Video Thumbnail](thumbnail-image-url)](https://drive.google.com/file/d/1k1HGJSeVjKVJEDi3rk2q-j9PkfJDNPVH/view?usp=sharing)<br>
 
 ## Installation Instructions
 
