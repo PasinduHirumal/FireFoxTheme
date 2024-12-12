@@ -17,8 +17,8 @@
 3. Create Folders and Files:
    ```
    [Mozilla FireFox Profile Folder]
-   └── chrome/
-       └── userChrome.css
+                                 └── chrome/
+                                     └── userChrome.css
    ```
 
 4. Copy the contents of `userChrome.css` into this file
