@@ -16,7 +16,7 @@
 
 3. Create Folders and Files:
    ```
-   [Profile Folder]
+   [Mozilla FireFox Profile Folder]
    └── chrome/
        └── userChrome.css
    ```
