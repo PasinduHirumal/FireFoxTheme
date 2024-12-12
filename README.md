@@ -51,7 +51,7 @@ You can easily customize the theme by modifying the root variables:
 - Customizable color scheme
 
 ## Compatibility
-- Tested on Firefox Latest Version
+- Tested on Firefox Version 133.0.3 (64-bit)
 - Requires Firefox 69+
 
 ## License
